@@ -1,13 +1,13 @@
-# ��J���&�P�_�� #
+# 輸入資料&判斷式 #
 
-## ���� ##
+## 說明 ##
 
-�����ϥΪ̨̧ǿ�J�Ʀr�A�����Jq����C<br>
-�Y�ϥΪ̿�J�D�Ʀr���r��A�ШϥΪ̭��s��J�C<br>
+請讓使用者依序輸入數字，直到輸入q停止。<br>
+若使用者輸入非數字的字串，請使用者重新輸入。<br>
 <br>
-1. �C�L�X�p�Ƥ��Ʀr�M�C<br>
-2. �C�L�X��Ƥ��Ʀr�M�C<br>
-3. ����p�ƼƦr�M�P��ƼƦr�M�j�p�A�C�L�X"Float > Int"��"Float = Int"��"Float < Int"<br>
+1. 列印出小數之數字和。<br>
+2. 列印出整數之數字和。<br>
+3. 比較小數數字和與整數數字和大小，列印出"Float > Int"或"Float = Int"或"Float < Int"<br>
 <br>
 
 ```
@@ -23,9 +23,9 @@ q <br>
 
 ## Output Format ##
 
-�p�Ƥ��Ʀr�M<br>
-��Ƥ��Ʀr�M<br>
-"Float > Int"��"Float = Int"��"Float < Int"<br>
+小數之數字和<br>
+整數之數字和<br>
+"Float > Int"或"Float = Int"或"Float < Int"<br>
 
 ## Sample Input 1 ##
 ```
@@ -46,7 +46,6 @@ Float > Int
 ## Sample Input 2 ##
 ```
 2
-aaa
 -3
 1.3
 2.6
